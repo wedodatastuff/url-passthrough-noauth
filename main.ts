@@ -319,6 +319,10 @@ function fetchFromPassthroughURL(
     method: "post",
     payload: JSON.stringify(request)
   };
+  const fetchRequest = UrlFetchApp.getRequest(url, options);
+  if (DEBUG) {
+    console.log(fetchRequest);
+  }
   const response = UrlFetchApp.fetch(url, options);
   const data = JSON.parse(response.getContentText());
 
