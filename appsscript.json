@@ -1,0 +1,13 @@
+{
+  "dataStudio": {
+    "name": "URL Passthrough - No Authenication",
+    "logoUrl": "https://static1.squarespace.com/static/5b6764b81aef1d39fd8df557/t/5b8ab808cd8366d4a00bc5c7/1535817762626/icon.png",
+    "company": "WeDoDataStuff.com",
+    "companyUrl": "https://wedodatastuff.com",
+    "addonUrl": "https://github.com/wedodatastuff/url-passthrough-noauth",
+    "supportUrl": "https://github.com/wedodatastuff/url-passthrough",
+    "description": "Delegates Google Data Studio connector callbacks to URLs running in an external environment. Does not prompt for or pass through any authentication.",
+    "authType": ["NONE"],
+    "feeType": ["FREE"]
+  }
+}
