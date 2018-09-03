@@ -1,4 +1,4 @@
-# URL Passthrough
+# URL Passthrough - No Authentication
 
 The URL Passthrough data connectors allow you to move the implementation of
 your connector out of a Google Apps Script project and into an external
